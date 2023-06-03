@@ -207,3 +207,11 @@ if st.button('Get Prediction about the Customer'):
         with col21:
             st.image(new_image)
   
+      
+    ques = ["Who are you?", "What is your name?", "Where do you live?"]
+            
+    st.write("\nCheck your preparation by answering the following questions!")
+            if st.button("Solve the questions"):
+                    for i in range(len(ques)):
+                        st.write(ques[i])
+                        st.text_area("Write your answer")
