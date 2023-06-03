@@ -206,3 +206,7 @@ if st.button('Get Prediction about the Customer'):
             st.header("This Customer is not a Churner")
         with col21:
             st.image(new_image)
+            
+    if st.button("Solve the questions"):
+        with st.spinner("Getting the questions ready ..."):
+            st.write("OK")
