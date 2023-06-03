@@ -208,5 +208,4 @@ if st.button('Get Prediction about the Customer'):
             st.image(new_image)
             
     if st.button("Solve the questions"):
-        with st.spinner("Getting the questions ready ..."):
-            st.write("OK")
+        st.header("OK")
